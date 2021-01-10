@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Martian</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color:rgb(110, 21, 184);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/christopher-gower-m_HRfLhgABo-unsplash.jpg');
+        font-size: 30px;
+    }
+
+    .left {
+        display: inline-block;
+         /* border: 5px solid rgb(10, 107, 145);  */
+        position: absolute;
+        left: 10px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 180px;
+       
+    }
+
+    .mid {
+        display: block;
+        width: 100%;
+        margin: 150px auto;
+
+        border: 2px solid #f7f8f7;
+        text-anchor: 20px;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        font-size: 20px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        font-style: normal;
+    }
+
+    .navbar li a {
+        color: rgb(99, 57, 179);
+        text-decoration: none;
+        padding: 10px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(95, 170, 184);
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid rgb(252, 250, 248);
+        margin: 10px 10px;
+        padding: 150px;
+        width: 20%;
+        border-radius: 80px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: left;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 5px solid black;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 8px;
+        float: left;
+    }
+
+    .container h1 {
+        text-align: left;
+        font-size: 40px;
+
+    }
+
+    .container button {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+    }
+    .wel{
+        height: 30px;
+        
+        
+        text-align: center;
+        font-size: 70px;
+        text-decoration-color: rgb(255,70,20);
+        padding: 20px;
+
+
+    }
+    .bt{
+          font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #quer{
+        position: absolute;
+        right: 34px;
+        top: : 43px;
+        float: right;
+        margin: 10px 10px;
+        display: inline-block;
+        font-size: 30px;
+
+    }
+    .bt:hover {
+        background-color: rgb(31, 30, 30);
+    }
+    .bt:visited{
+        
+    }
+    #pop{
+        display: none;
+        float: right;
+        background: none;
+
+    }
+    #pop input{
+        width: 50%;
+    }
+    .hide{
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 35px;
+        cursor: pointer;
+        float: right;
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: : 43px;
+        float: right;
+        margin: 10px 10px;
+        font-family: 'Baloo Bhai', cursive;
+        background-color: black;
+        display: inline-block;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo.PNG" alt="">
+            
+        </div>
+        <div class="wel">Welcome</div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="Martian.html" class="active">Home</a></li>
+                <li><a href="arduino.html">Arduino</a></li>
+                <li><a href="#">Embedded System</a></li>
+                <li><a href="#">IOT</a></li>
+                <li><a href="#">Node MCU</a></li>
+                <li><a href="#">Raspberry-Pi</a></li>
+                <li><a href="#">ARM</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+           
+           
+                <a href="sign.html">Sign In </a>
+           
+        </div>
+       
+    </header>
+    <div class="container">
+        <h2>Join With Us</h2>
+        <form  action="join.php" method="post" name="form">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="age" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="gender" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="local" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="ide" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Enter your Phone Number">
+            </div>
+            <input class="btn" type="submit" name="submit"  onclick= "alert( 'Are You Sure!')"  > 
+        </form>
+    </div>
+    <div id="quer">
+        <button class="bt" onclick="document.getElementById('pop').style.display='block'">Query</button>
+        <div id="pop">
+           <textarea name="comment" rows="20"cols="50" > </textarea> 
+           <button class="hide" onclick="document.getElementById('pop').style.display='none'">submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
